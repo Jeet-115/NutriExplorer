@@ -3,7 +3,7 @@ const CategorySortControls = ({ categories, category, setCategory, setQuery, set
       <div>
         <label className="block text-sm font-medium mb-1">Filter by Category:</label>
         <select
-          className="p-2 border rounded w-full max-w-xs"
+          className="p-2 border rounded w-full max-w-xs text-black"
           value={category}
           onChange={(e) => {
             setCategory(e.target.value);
@@ -20,7 +20,7 @@ const CategorySortControls = ({ categories, category, setCategory, setQuery, set
       <div>
         <label className="block text-sm font-medium mb-1">Sort by:</label>
         <select
-          className="p-2 border rounded w-full max-w-xs"
+          className="p-2 border rounded w-full max-w-xs text-black"
           value={sortOption}
           onChange={(e) => setSortOption(e.target.value)}
         >
